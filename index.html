@@ -13,8 +13,19 @@
 
     <main>
         <form>
-            <label for="Celsius">Enter temperature in Celsius: </label>
-            <input type="number" name="Celsius" id="Celsius" required>
+            <input type="number" id="textBox" value="0" required>
+            <br>
+
+            <input type="radio" name="unit" id="toFahrenheit" required>
+            <label for="toFahrenheit">Celsius ➡ Fahrenheit</label>
+            <br>
+
+            <input type="radio" name="unit" id="toCelsius" required>
+            <label for="toCelsius">Fahrenheit ➡ Celsius</label>
+            <br>
+
+            <button type="button" onclick="convert()">Convert</button>
+            <p id="result"></p>
         </form>
     </main>
 
@@ -23,6 +34,6 @@
         <small>This project is done by: Ahmed Mohammed Jayanti Mochi</small>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

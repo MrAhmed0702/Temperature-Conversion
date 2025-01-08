@@ -21,8 +21,51 @@ header h1 {
     justify-content: center;
 }
 
-main {
-    border: 2px solid #ff0022;
+form {
+    background-color: hsla(0, 3%, 31%, 0.742);
+    text-align: center;
+    padding: 60px;
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 15px;
+    box-shadow: 5px 6px 10px hsla(0, 1%, 56%, 0.655)
+}
+
+#textBox {
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 130px;
+    background-color: #000000;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: white;
+}
+
+button:hover {
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form p {
+    margin-top: 10px;
 }
 
 footer {
